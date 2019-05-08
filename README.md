@@ -43,6 +43,9 @@ server.listen(3002)
 > client
 
 ```js
+// <script src="yourpath/lib/client.js"></script>
+// or
+// const io = require('yourpath/lib/client.js')
 var socket = io('ws://127.0.0.1:3002')
 socket.$on('connection', function () {
   console.log('connection')
