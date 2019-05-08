@@ -1,6 +1,6 @@
 {
   "name": "socket.io.lite",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "lightweight socket.io for websoket by ws",
   "main": "lib/server.js",
   "directories": {
