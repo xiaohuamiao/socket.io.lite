@@ -44,13 +44,13 @@ server.listen(3002)
 
 ```js
 var socket = io('ws://127.0.0.1:3002')
-    socket.$on('connection', function () {
-      console.log('connection')
-    })
-    socket.$emit('testA', { bar: 'foo' })
-    socket.$on('testB', function (data) {
-        console.log()
-    })
+socket.$on('connection', function () {
+  console.log('connection')
+})
+socket.$emit('testA', { bar: 'foo' })
+socket.$on('testB', function (data) {
+  console.log()
+})
 ```
 
 ## License
