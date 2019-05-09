@@ -8,6 +8,7 @@
 [![Code Style][style-image]][style-url]
 
 > lightweight socket.io
+> 支持微信小程序
 
 ## Installation
 
