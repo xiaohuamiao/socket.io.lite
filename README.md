@@ -13,10 +13,10 @@
 ## Installation
 
 ```bash
-$ yarn add x-pages --dev
+$ yarn add socket.io
 
 # or npm
-$ npm install x-pages --dev
+$ npm install socket.io
 ```
 
 ## Usage
@@ -31,8 +31,8 @@ const app = express()
 ...
 const server = http.createServer(app)
 const io = socketLite(server)
-io.$on("connection", client => {
-  console.log('connect')
+io.$on("open", client => {
+  console.log('open')
   client.$on('testA', data => {
     console.log(data)
   })
@@ -48,8 +48,8 @@ server.listen(3002)
 // or
 // const io = require('yourpath/lib/client.js')
 var socket = io('ws://127.0.0.1:3002')
-socket.$on('connection', function () {
-  console.log('connection')
+socket.$on('open', function () {
+  console.log('open')
 })
 socket.$emit('testA', { bar: 'foo' })
 socket.$on('testB', function (data) {
