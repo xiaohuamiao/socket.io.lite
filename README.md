@@ -13,10 +13,10 @@
 ## Installation
 
 ```bash
-$ yarn add socket.io
+$ yarn add socket.io.lite
 
 # or npm
-$ npm install socket.io
+$ npm install socket.io.lite
 ```
 
 ## Usage
