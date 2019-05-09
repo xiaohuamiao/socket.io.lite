@@ -9,6 +9,8 @@
 
 > lightweight socket.io
 > 支持微信小程序
+> contain heartbeat
+> auto reconnect
 
 ## Installation
 
@@ -31,6 +33,7 @@ const app = express()
 ...
 const server = http.createServer(app)
 const io = socketLite(server)
+// events: open, close, error, ...
 io.$on("open", client => {
   console.log('open')
   client.$on('testA', data => {
@@ -41,13 +44,27 @@ io.$on("open", client => {
 server.listen(3002)
 ```
 
-> client
+> browser
 
 ```js
-// <script src="yourpath/lib/client.js"></script>
+// <script src="yourpath/lib/client.js"></script> // window.SocketLite
 // or
-// const io = require('yourpath/lib/client.js')
-var socket = io('ws://127.0.0.1:3002')
+// const SocketLite = require('socket.io.lite/lib/browser.js')
+var socket = new SocketLite('ws://127.0.0.1:3002')
+socket.$on('open', function () {
+  console.log('open')
+})
+socket.$emit('testA', { bar: 'foo' })
+socket.$on('testB', function (data) {
+  console.log()
+})
+```
+
+> weapp (微信小程序)
+
+```js
+const SocketLite = require('socket.io.lite/lib/weapp.js')
+var socket = new SocketLite('ws://127.0.0.1:3002')
 socket.$on('open', function () {
   console.log('open')
 })
