@@ -7,7 +7,8 @@
 [![devDependency Status][devdependency-image]][devdependency-url]
 [![Code Style][style-image]][style-url]
 
-> lightweight socket.io  
+> a lightweight socket.io library for websocket
+
 > 支持微信小程序  
 > contain heartbeat  
 > auto reconnect  
