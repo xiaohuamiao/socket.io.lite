@@ -7,10 +7,10 @@
 [![devDependency Status][devdependency-image]][devdependency-url]
 [![Code Style][style-image]][style-url]
 
-> lightweight socket.io
-> 支持微信小程序
-> contain heartbeat
-> auto reconnect
+> lightweight socket.io  
+> 支持微信小程序  
+> contain heartbeat  
+> auto reconnect  
 
 ## Installation
 
