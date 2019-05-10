@@ -7,15 +7,13 @@
 [![devDependency Status][devdependency-image]][devdependency-url]
 [![Code Style][style-image]][style-url]
 
-<!-- |    |            |   |
-|----------|:-------------:|------:|
-| cnpm |  ![cnpm]() | /month | -->
+cnpm downloads ![cnpm](https://xiaohuamiao.huamao110.now.sh/badge/d/socket.io.lite.svg)
 
 > a lightweight socket.io library for websocket
 
 > 支持微信小程序  
-> contain heartbeat  
-> auto reconnect  
+> contain heartbeat
+> auto reconnect
 
 ## Tip
 > 2.0 upgraded the api, using new SocketLite () to create connections, no longer using IO () to create connections.
