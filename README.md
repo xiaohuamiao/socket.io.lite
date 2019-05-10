@@ -14,7 +14,7 @@
 > auto reconnect
 
 ## Tip
-> 2.0 upgraded the api, using new SocketLite () to create connections, no longer using IO () to create connections.
+> 2.0 upgraded the api, using `new SocketLite ()` to create connections, no longer using `io()` to create connections.
 
 ## Installation
 

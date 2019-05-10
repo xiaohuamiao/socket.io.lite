@@ -1,12 +1,13 @@
 {
   "name": "socket.io.lite",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "lightweight socket.io for websoket by ws， 支持微信小程序",
   "main": "lib/server.js",
   "directories": {
     "lib": "lib",
     "test": "test"
   },
+  "private": true,
   "scripts": {
     "start": "npm run build",
     "build": "npx webpack"
@@ -18,7 +19,8 @@
   "keywords": [
     "websocket",
     "lightweight",
-    "lite"
+    "lite",
+    "小程序"
   ],
   "author": "xiaohuamiao",
   "license": "MIT",
