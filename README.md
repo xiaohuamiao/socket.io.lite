@@ -78,6 +78,20 @@ socket.$on('testB', function (data) {
 })
 ```
 
+## API
+
+```js
+> client
+socket.$on
+socket.$emit
+
+> server
+io.$on('opet', callback)
+io.$emit() // braodcast
+socket.$on
+socket.$emit
+```
+
 ## License
 
 [MIT](LICENSE) &copy; [小花猫](https://xiaohuamiao.cn)
