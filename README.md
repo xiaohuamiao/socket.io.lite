@@ -1,11 +1,13 @@
 # socket.io.lite
 <!-- [![Build Status][travis-image]][travis-url] -->
 [![NPM Downloads][downloads-image]][downloads-url]
+[![CNPM Downloads][downloads-image-cnpm]][downloads-url-c]
 [![NPM Version][version-image]][version-url]
 [![License][license-image]][license-url]
 [![Dependency Status][dependency-image]][dependency-url]
 [![devDependency Status][devdependency-image]][devdependency-url]
 [![Code Style][style-image]][style-url]
+
 
 > a lightweight socket.io library for websocket
 
@@ -97,7 +99,9 @@ socket.$emit
 [MIT](LICENSE) &copy; [小花猫](https://xiaohuamiao.cn)
 
 [downloads-image]: https://img.shields.io/npm/dm/socket.io.lite.svg
+[downloads-image-cnpm]: https://xiaohuamiao.huamao110.now.sh/badge/d/socket.io.lite.svg
 [downloads-url]: https://npmjs.org/package/socket.io.lite
+[downloads-url-c]: https://npm.taobao.org/package/socket.io.lite
 [version-image]: https://img.shields.io/npm/v/socket.io.lite.svg
 [version-url]: https://npmjs.org/package/socket.io.lite
 [license-image]: https://img.shields.io/github/license/xiaohuamiao/socket.io.lite.svg
