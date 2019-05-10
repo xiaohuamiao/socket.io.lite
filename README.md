@@ -7,8 +7,6 @@
 [![devDependency Status][devdependency-image]][devdependency-url]
 [![Code Style][style-image]][style-url]
 
-cnpm downloads ![cnpm](https://xiaohuamiao.huamao110.now.sh/badge/d/socket.io.lite.svg)
-
 > a lightweight socket.io library for websocket
 
 > 支持微信小程序  
