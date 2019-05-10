@@ -1,7 +1,6 @@
 # socket.io.lite
 <!-- [![Build Status][travis-image]][travis-url] -->
 [![NPM Downloads][downloads-image]][downloads-url]
-[![NPM Downloads Weekly][downloads-image-weekly]][downloads-url]
 [![NPM Version][version-image]][version-url]
 [![License][license-image]][license-url]
 [![Dependency Status][dependency-image]][dependency-url]
@@ -84,7 +83,6 @@ socket.$on('testB', function (data) {
 [MIT](LICENSE) &copy; [小花猫](https://xiaohuamiao.cn)
 
 [downloads-image]: https://img.shields.io/npm/dm/socket.io.lite.svg
-[downloads-image-weekly]: https://img.shields.io/npm/dw/localeval.svg
 [downloads-url]: https://npmjs.org/package/socket.io.lite
 [version-image]: https://img.shields.io/npm/v/socket.io.lite.svg
 [version-url]: https://npmjs.org/package/socket.io.lite
