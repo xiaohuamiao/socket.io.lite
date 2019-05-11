@@ -82,17 +82,22 @@ socket.$on('testB', function (data) {
 
 ## API
 
+### client
 ```js
-> client
-socket.$on
-socket.$emit
-
-> server
-io.$on('open', callback)
-io.$emit() // braodcast
-socket.$on
-socket.$emit
+socket.$on(eventName, callback)
+socket.$emit(eventName, data)  
 ```
+
+### server
+```js
+io.$on(eventName, data)
+io.$emit(eventName, callback) // braodcast
+socket.$on(eventName, data)
+socket.$emit(eventName, callback)
+```
+
+> about the $on  !!!  
+Because `JSON.stringify` and `JSON.parse` are used in the current code, data is required to be an object and not to pass in a JSON format string.
 
 ## License
 
