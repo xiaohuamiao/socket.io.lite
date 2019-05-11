@@ -88,7 +88,7 @@ socket.$on
 socket.$emit
 
 > server
-io.$on('opet', callback)
+io.$on('open', callback)
 io.$emit() // braodcast
 socket.$on
 socket.$emit
