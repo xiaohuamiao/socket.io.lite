@@ -99,6 +99,10 @@ socket.$emit(eventName, callback)
 > about the $on  !!!  
 Because `JSON.stringify` and `JSON.parse` are used in the current code, data is required to be an object and not to pass in a JSON format string.
 
+## Todos
+- [] 支持直接传递基本数据类型
+- [] 支持传递二进制数据
+
 ## License
 
 [MIT](LICENSE) &copy; [小花猫](https://xiaohuamiao.cn)
