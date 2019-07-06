@@ -1,6 +1,6 @@
 {
   "name": "socket.io.lite",
-  "version": "2.1.0",
+  "version": "2.1.3",
   "description": "lightweight socket.io for websoket by ws， 支持微信小程序",
   "main": "lib/server.js",
   "directories": {
